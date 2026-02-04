@@ -24,7 +24,7 @@ USERLIBDIRS 	:=
 USERLIBS    	:=
 DEFAULTLIBS 	:=
 STACKTRACE		:=
-USERBUILD   	:=
+USERBUILD   	:=  $(TARGET).sav
 EXTTOOL     	:=
 
 #---------------------------------------------------------------------------------------------------------------------
