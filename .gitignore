@@ -3,6 +3,7 @@ build/
 *.gba
 *.elf
 *.sav
+compile_commands.json
 
 # Editor files
 *.swp
