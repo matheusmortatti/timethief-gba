@@ -1,0 +1,18 @@
+CompileFlags:
+  Remove:
+    - -mthumb
+    - -mthumb-interwork
+    - -mcpu=arm7tdmi
+    - -mtune=arm7tdmi
+    - -mfloat-abi=*
+    - -fno-fat-lto-objects
+    - --param=*
+  Add:
+    - -Wno-unknown-warning-option
+    - --target=arm-none-eabi
+    - -isystem/opt/devkitpro/devkitARM/arm-none-eabi/include/c++/15.2.0
+    - -isystem/opt/devkitpro/devkitARM/arm-none-eabi/include/c++/15.2.0/arm-none-eabi
+    - -isystem/opt/devkitpro/devkitARM/arm-none-eabi/include/c++/15.2.0/backward
+    - -isystem/opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/15.2.0/include
+    - -isystem/opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/15.2.0/include-fixed
+    - -isystem/opt/devkitpro/devkitARM/arm-none-eabi/include
