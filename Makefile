@@ -4,8 +4,12 @@
 TARGET      	:=  timethief-gba
 BUILD       	:=  build
 LIBBUTANO   	:=  butano/butano
-PYTHON      	:=  python
-SOURCES     	:=  src
+PYTHON      	:=  python3
+SOURCES     	:=  src \
+                    src/engine \
+                    src/game \
+                    src/game/scenes \
+                    src/game/objects
 INCLUDES    	:=  include
 DATA        	:=
 GRAPHICS    	:=  graphics
